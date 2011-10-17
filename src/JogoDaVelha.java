@@ -131,13 +131,13 @@ public class JogoDaVelha {
 		
 		if("O".equals(tabuleiro[0][0]) && "O".equals(tabuleiro[1][1]) && "O".equals(tabuleiro[2][2]) ){
 			
-			System.out.println("O jogador O ganhou!");// falta testar
+			System.out.println("O jogador O ganhou!");
 			return true;
 		}
 		
 		if("O".equals(tabuleiro[2][0]) && "O".equals(tabuleiro[1][1]) && "O".equals(tabuleiro[0][2]) ){
 			
-			System.out.println("O jogador O ganhou!");// falta testar
+			System.out.println("O jogador O ganhou!");
 			return true;
 		}
 		

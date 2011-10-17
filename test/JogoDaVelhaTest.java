@@ -128,7 +128,7 @@ public class JogoDaVelhaTest {
 	}
 	
 	@Test
-	public void deveConfirmarGanhadorXisNaPosicaoTransversalDireita() throws Exception {// falta testar
+	public void deveConfirmarGanhadorXisNaPosicaoTransversalDireita() throws Exception {
 		String[][] tabuleiroInicial = new String[][] {{"X", "", ""}, 
 										  			  {"", "X", ""}, 
 										  			  {"", "", "X"}};
@@ -138,7 +138,7 @@ public class JogoDaVelhaTest {
 	}
 	
 	@Test
-	public void deveConfirmarGanhadorXisNaPosicaoTransversalEsquerda() throws Exception {// falta testar
+	public void deveConfirmarGanhadorXisNaPosicaoTransversalEsquerda() throws Exception {
 		String[][] tabuleiroInicial = new String[][] {{"", "", "X"}, 
 										  			  {"", "X", ""}, 
 										  			  {"X", "", ""}};
